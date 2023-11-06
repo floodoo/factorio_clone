@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://ynv7inb1vquh"]
+
+[ext_resource type="Script" path="res://main/Play Button.gd" id="1_bn5tl"]
+[ext_resource type="Script" path="res://main/Exit Button.gd" id="1_jp6oa"]
+
+[node name="main" type="Node2D"]
+
+[node name="Play Button" type="Button" parent="."]
+layout_direction = 1
+offset_left = 429.0
+offset_top = 183.0
+offset_right = 676.0
+offset_bottom = 268.0
+size_flags_horizontal = 6
+size_flags_vertical = 6
+theme_override_font_sizes/font_size = 15
+text = "Play"
+script = ExtResource("1_bn5tl")
+metadata/_edit_use_anchors_ = true
+
+[node name="Exit Button" type="Button" parent="."]
+layout_direction = 1
+offset_left = 429.0
+offset_top = 338.0
+offset_right = 676.0
+offset_bottom = 423.0
+size_flags_horizontal = 6
+size_flags_vertical = 6
+theme_override_font_sizes/font_size = 15
+text = "Exit"
+script = ExtResource("1_jp6oa")
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="Play Button" to="Play Button" method="_on_pressed"]
+[connection signal="pressed" from="Exit Button" to="Exit Button" method="_on_pressed"]
