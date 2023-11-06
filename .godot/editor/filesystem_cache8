@@ -1,5 +1,19 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1699273602
+::res://::1699274717
 icon.svg::CompressedTexture2D::5913056624972861323::1699272624::1699272626::1::::<><>::
-::res://main/::1699273851
-main.tscn::PackedScene::1712701800718890007::1699273851::0::1::::<><>::
+::res://assets/::1699274725
+::res://assets/pixel_art_top_down_tileset/::1699274721
+CC-BY-SA-4.0.txt::TextFile::-1::1699274721::0::1::::<><>::
+::res://assets/pixel_art_top_down_tileset/cover/::1699274721
+cover.png::CompressedTexture2D::7656470820224319540::1699274721::1699274721::1::::<><>::
+::res://assets/pixel_art_top_down_tileset/tileset/::1699274721
+tileset.png::CompressedTexture2D::780624883520276028::1699274721::1699274721::1::::<><>::
+::res://assets/PUNY_WORLD_v1/::1699274725
+punyworld-overworld-tileset.png::CompressedTexture2D::1344044238677256638::1699274725::1699274725::1::::<><>::
+::res://assets/PUNY_WORLD_v1/Tiled/::1699274725
+::res://main/::1699274089
+Exit Button.gd::GDScript::-1::1699274026::0::1::::<>Button<>::
+main.tscn::PackedScene::1712701800718890007::1699274089::0::1::::<><>::res://main/Play Button.gd<>res://main/Exit Button.gd
+Play Button.gd::GDScript::-1::1699274084::0::1::::<>Button<>::
+::res://world/::1699274084
+world.tscn::PackedScene::6521015030142889293::1699274084::0::1::::<><>::
